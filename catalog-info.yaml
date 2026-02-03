@@ -21,8 +21,7 @@ spec:
   lifecycle: experimental
   owner: user:github/sairamreddy77
   definition:
-    $text: >
-      http://127.0.0.1:8000/openapi.json
+    $text: ./openapi.json
 
     # $openapi: http://localhost:8000/openapi.json
     # $text: |
