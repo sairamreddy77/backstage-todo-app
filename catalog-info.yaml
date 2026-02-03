@@ -19,7 +19,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: user:github/sairamreddy77
+  owner: user:default/sairambreddy
   definition:
     $text: ./openapi.json
 
