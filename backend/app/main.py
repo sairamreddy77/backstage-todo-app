@@ -25,6 +25,11 @@ def get_db():
     finally:
         db.close()
 
+@app.get("/")
+def hello():
+    return { "message" : "hello"}
+
+
 @app.get("/api/health")
 def health():
     return {"status": "ok"}
